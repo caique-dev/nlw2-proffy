@@ -1,0 +1,18 @@
+{
+    "name": "discovery",
+    "scripts": {
+        "dev": "nodemon src/server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "homepage": "https://github.com/jhonathannc/nextlevelweek2#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "nunjucks": "^3.2.2",
+        "sqlite-async": "^1.1.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
+}
