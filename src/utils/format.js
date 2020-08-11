@@ -3,6 +3,7 @@ const subjects = [
     "Biologia",
     "Ciências",
     "Educação física",
+    "Filosofia",
     "Física",
     "Geografia",
     "História",

@@ -3,14 +3,14 @@ const
     { subjects, weekdays, getSubject, convertToMinutes } = require('./utils/format')
 
 function pageLanding(req, res) {
-    res.render('index.html')
+    return res.render('index.html')
 }
 
 async function pageStudy(req, res) {
     const filters = req.query
 
     if (!filters.weekday || !filters.subject ||!filters.time) {
-        res.render('study.html', { filters, subjects, weekdays })
+        return res.render('study.html', { filters, subjects, weekdays })
     }
 
     // convertendo para minutos
@@ -35,7 +35,11 @@ async function pageStudy(req, res) {
         const db = await database
         const proffys = await db.all(query)
 
-        res.render('study.html', { proffys, filters, subjects, weekdays })
+        proffys.map((proffy) => {
+            proffy.subject = getSubject(proffy.subject)
+        })
+
+        return res.render('study.html', { proffys, filters, subjects, weekdays })
     } catch (error) {
         console.log(error )
     }
@@ -72,11 +76,11 @@ async function saveClasses(req, res) {
     try {
         const db = await database
         await createProffy(db, { proffyValue, classValue, classScheduleValues })
-
-        let queryString = "?subjects=" + req.body.subject
+        
+        let queryString = "?subject=" + req.body.subject
         queryString += '&weekday=' + req.body.weekday[0]
         queryString += '&time=' + req.body.time_from[0]
-
+        
         return res.redirect("/study" + queryString) 
     } catch (error) {
         console.log(error)

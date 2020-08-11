@@ -24,6 +24,7 @@
 
 .hero-image {
     width: 100%;
+    margin: 7rem 0;
 }
 
 .buttons-container {
@@ -34,11 +35,12 @@
 
 .buttons-container a {
     width: 30rem;
-    height: 10.4rem;
+    height: 30.4rem;
     border-radius: 0.8rem;
     margin-right: 1.6rem;
-    font: 700 2.4rem Archivo;
+    font: 700 3.5rem Archivo;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-decoration: none;
@@ -47,8 +49,8 @@
 }
 
 .buttons-container a img {
-    width: 4rem;
-    margin-right: 2.4rem;
+    width: 8rem;
+    margin-bottom: 3.4rem;
 }
 
 .buttons-container a.study {
@@ -79,7 +81,22 @@
     margin-left: 0.8rem;
 }
 
-@media (max-width: 699px) {
+@media (min-width: 650px) {
+    .buttons-container a {
+        width: 35rem;
+        height: 8.4rem;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .buttons-container a img {
+        width: 4.5rem;
+        margin-right: 1.4rem;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 1100px) {
      :root {
         font-size: 40%;
     }
@@ -95,24 +112,40 @@
         column-gap: 87px;
         row-gap: 86px;
     }
+
     .logo-container {
         text-align: initial;
         grid-area: proffy;
         align-self: center;
         margin: 0;
     }
+
+    .buttons-container a {
+        width: 29rem;
+        height: 8.4rem;
+        font-size: 2.5rem;
+    }
+
+    .buttons-container a img {
+        width: 3.5rem;
+    }
+
     .logo-container img {
         height: 127px;
     }
+    
     .hero-image {
         grid-area: image;
         height: 350px;
+        margin: 0;
     }
+
     .buttons-container {
         grid-area: button;
         justify-content: flex-start;
         margin: 0;
     }
+
     .total-connections {
         grid-area: texting;
         justify-self: end;

@@ -24,7 +24,8 @@
             </div>
 
             <div class="header-content">
-                <strong>Esses sao os proffys disponiveis</strong>
+                <strong>Esses são os proffys disponíveis</strong>
+                <p>Nos diga a matéria, dia e horário no qual deseja estudar</p>
                 <form id="search-teachers">
                     <div class="select-block">
                         <label for="subject">Matéria</label>
@@ -40,7 +41,7 @@
                     <div class="select-block">
                         <label for="weekday">Dia da Semana</label>
                         <select name="weekday" id="weekday" required>
-                            <option selected disabled hidden>Selecione</option>
+                            <option selected disabled="" hidden="">Selecione</option>
                             {%for weekday in weekdays %}
                                 <option value="{{loop.index0}}" {{"selected" if filters.weekday == loop.index0}}>
                                     {{weekday}}
@@ -77,7 +78,8 @@
                             <p>Preço/hora<strong>R$ {{proffy.cost}}</strong>
                             </p>
                             <a href="https://api.whatsapp.com/send?l=pt_BR&phone=55{{proffy.whatsapp}}&text=Olá {{proffy.name}}, tenho interesse na sua aula de {{proffy.subject}}" class="button" target="_blank">
-                                <img src="/images/icons/whatsapp.svg" alt="Whatsapp"> Entrar em contato
+                                <img src="/images/icons/whatsapp.svg" alt="Whatsapp"> 
+                                Entrar em contato
                             </a>
                         </footer>
                     </article>

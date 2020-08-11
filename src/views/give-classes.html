@@ -26,7 +26,7 @@
 
             <div class="header-content">
                 <strong>Que incrível que você quer dar aulas!</strong>
-                <p>O primeiro passo,é preencher esse formulario de inscricao</p>
+                <p>O primeiro passo, é preencher esse formulário de inscrição</p>
             </div>
         </header>
 
@@ -41,12 +41,12 @@
                     </div>
 
                     <div class="input-block">
-                        <label for="avatar">Link da sua foto <small>(comece com https://)</small></label>
+                        <label for="avatar">Link da sua foto<small>(comece com https://)</small></label>
                         <input name="avatar" id="avatar" type="url" required>
                     </div>
 
                     <div class="input-block">
-                        <label for="whatsapp">Whatsapp <small>(somente numeros)</small></label>
+                        <label for="whatsapp">Whatsapp<small>(somente números)</small></label>
                         <input name="whatsapp" id="whatsapp" type="number" required>
                     </div>
 
@@ -63,7 +63,7 @@
                         <select name="subject" id="subject" required>
                             <option selected disabled hidden>Selecione</option>
                             {%for subject in subjects %}
-                                    <option value="{{loop.index0}}">
+                                    <option value="{{loop.index}}">
                                         {{subject}}
                                     </option>
                                 {%endfor%}
@@ -77,14 +77,14 @@
                 </fieldset>
 
                 <fieldset id="schedule-items">
-                    <legend>Horarios disponiveis
+                    <legend>Horários disponíveis
                         <button type="button" id="add-time">+ Novo Horário</button>
                     </legend>
 
                     <div class="schedule-item">
                         <div class="select-block">
                             <label for="weekday">Dia da semana</label>
-                            <select name="weekday[]">
+                            <select name="weekday[]" required>
                                 <option selected disabled hidden>Selecione</option>
                                 {%for weekday in weekdays %}
                                     <option value="{{loop.index0}}">
@@ -108,7 +108,7 @@
 
             <footer>
                 <p>
-                    <img src="/images/icons/warning.svg" alt="Aviso importante"> Importante! <br> Preencha todos os dados
+                    <img src="/images/icons/warning.svg" alt="Aviso importante">Importante!<br> Preencha todos os dados
                 </p>
                 <button type="submit" form="create-class">Salvar cadastro</button>
             </footer>
