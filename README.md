@@ -17,17 +17,16 @@
 
 ---
 
-## 🖥 Preview 
-- Desktop
+## 🖥 :iphone: Preview 
+- Desktop [Visualizar](/readme-assets/desktop)
 <p align="center">
   <p><a href="/readme-assets/desktop">• Clique para ver individualmente</a>
-  <img src="/readme-assets/desktop/desk-compilado.jpg" width="100%" tittle="Visualização no Desktop">
+  <img src="" width="100%" tittle="Visualização no Desktop">
 </p>
 <br>
 
-- Mobile
+- Mobile [Visualizar](/readme-assets/mobile)
 <p align="center">
-  <p><a href="/readme-assets/mobile">• Clique para ver individualmente</a>
   <img src="/readme-assets/mobile/mobile-compilado.jpg" width="100%" tittle="Visualização no Mobile">
 </p>
 
