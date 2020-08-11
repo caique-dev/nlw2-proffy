@@ -1,20 +1,20 @@
 .page-header {
     background-color: var(--color-primary);
-    display: flex;
-    flex-direction: column;
+    display         : flex;
+    flex-direction  : column;
 }
 
 .page-header .top-bar-container {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
+    width          : 90%;
+    margin         : 0 auto;
+    display        : flex;
+    align-items    : center;
     justify-content: space-between;
-    padding: 1.6rem 0;
+    padding        : 1.6rem 0;
 }
 
 .page-header .top-bar-container a {
-    height: 3.2rem;
+    height    : 3.2rem;
     transition: opacity 0.2s;
 }
 
@@ -27,35 +27,35 @@
 }
 
 .page-header .header-content {
-    width: 90%;
-    margin: 3.2rem auto;
+    width   : 90%;
+    margin  : 3.2rem auto;
     position: relative;
 }
 
 .page-header .header-content strong {
-    font: 700 3.6rem Archivo;
+    font       : 700 3.6rem Archivo;
     line-height: 4.2rem;
-    color: var(--color-title-in-primary);
+    color      : var(--color-title-in-primary);
 }
 
 .page-header .header-content p {
-    max-width: 30rem;
-    font-size: 1.6rem;
+    max-width  : 30rem;
+    font-size  : 1.6rem;
     line-height: 2.6rem;
-    color: var(--color-text-in-primary);
-    margin-top: 2.4rem;
+    color      : var(--color-text-in-primary);
+    margin-top : 2.4rem;
 }
 
 @media (max-width: 605px) {
     .page-header .header-content strong {
-        width: 100%;
+        width     : 100%;
         text-align: center;
-        display: block;
+        display   : block;
     }
 
     .page-header .header-content p {
-        margin: 2.4rem auto 0;
-        max-width: 100%;
+        margin    : 2.4rem auto 0;
+        max-width : 100%;
         text-align: center;
     }
 }
@@ -70,12 +70,12 @@
     }
 
     .page-header .header-content {
-        max-width: 740px;
-        margin: 0 auto;
-        flex: 1 1;
-        padding-bottom: 48px;
-        display: flex;
-        flex-direction: column;
+        max-width      : 740px;
+        margin         : 0 auto;
+        flex           : 1 1;
+        padding-bottom : 48px;
+        display        : flex;
+        flex-direction : column;
         justify-content: center;
     }
 
