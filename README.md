@@ -28,7 +28,7 @@
 - Mobile
 <p align="center">
   <img src="/readme-assets/mobile/mobile-compilado.jpg" width="100%" tittle="Visualização no Mobile">
-  <p><a href="/readme-assets/desktop">• Clique para ver individualmente</a>
+  <p><a href="/readme-assets/mobile">• Clique para ver individualmente</a>
 </p>
 
 ---
