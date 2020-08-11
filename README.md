@@ -20,13 +20,17 @@
 ## 🖥 Preview 
 - Desktop
 <p align="center">
+  <img src="/readme-assets/home_desk.png" width="500" >
+  <img src="/readme-assets/study_desk.png" width="500" >
   <img src="/readme-assets/give_classes_desk.png" width="500" >
 </p>
 <br>
 
 - Mobile
 <p align="center">
-  <img src="https://i.ibb.co/W50kHDg/mobile.png" width="500" >
+  <img src="/readme-assets/home_mobile.png" width="500" >
+  <img src="/readme-assets/study_mobile.png" width="500" >
+  <img src="/readme-assets/give_classes_mobile.png" width="500" >
 </p>
 
 ---
@@ -80,8 +84,8 @@ Feito isso, abra o seu navegador e acesse `http://localhost:3000/`
 
 ---
 
-<p aling="center">
-  <a href="https://www.linkedin.com/in/caique-andrade-8a8153189/">
+<p>
+  <a aling="center" href="https://www.linkedin.com/in/caique-andrade-8a8153189/">
     <img align="center" src="https://img.shields.io/static/v1?label=&message=Linkedin&color=3D008A&style=for-the-badge&logo=linkedin"/>
   </a>
 </p>
