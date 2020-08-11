@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[![GitHub stars](https://img.shields.io/github/stars/jhonathannc/nextlevelweek2?color=orange)](https://github.com/jhonathannc/nextlevelweek2/stargazers)<space> <space>[![GitHub license](https://img.shields.io/github/license/jhonathannc/nextlevelweek2?color=darkgreen)](https://github.com/jhonathannc/nextlevelweek2/blob/master/LICENSE)<space> <space>[![GitHub forks](https://img.shields.io/github/forks/jhonathannc/nextlevelweek2)](https://github.com/jhonathannc/nextlevelweek2/network)<space> <space> ![](https://img.shields.io/github/repo-size/jhonathannc/nextlevelweek2)<space> <space> ![](https://img.shields.io/github/downloads/jhonathannc/nextlevelweek2/total)
+[![GitHub stars](https://img.shields.io/github/stars/caique-dev/nlw2-proffy?color=orange)](https://github.com/caique-dev/nlw2-proffy/stargazers)<space> <space>[![GitHub license](https://img.shields.io/github/license/caique-dev/nlw2-proffy?color=darkgreen)](https://github.com/caique-dev/nlw2-proffy/blob/master/LICENSE)<space> <space>[![GitHub forks](https://img.shields.io/github/forks/caique-dev/nlw2-proffy)](https://github.com/caique-dev/nlw2-proffy/network)<space> <space> ![](https://img.shields.io/github/repo-size/caique-dev/nlw2-proffy)<space> <space> ![](https://img.shields.io/github/downloads/caique-dev/nlw2-proffy/total)
 
 </div>
 
