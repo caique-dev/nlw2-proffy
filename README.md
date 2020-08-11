@@ -20,9 +20,7 @@
 ## 🖥 Preview 
 - Desktop
 <p align="center">
-  <img src="/readme-assets/home_desk.png" width="500" >
-  <img src="/readme-assets/study_desk.png" width="500" >
-  <img src="/readme-assets/give_classes_desk.png" width="500" >
+  <img src="/readme-assets/mobile-compilado.jpg" width="500" >
 </p>
 <br>
 
