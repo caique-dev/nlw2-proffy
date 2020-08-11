@@ -20,15 +20,15 @@
 ## 🖥 Preview 
 - Desktop
 <p align="center">
-  <img src="/readme-assets/mobile-compilado.jpg" width="100%" >
+  <img src="/readme-assets/desktop/desk-compilado.jpg" width="100%" tittle="Visualização no Desktop">
+  <p><a href="/readme-assets/desktop">• Clique para ver individualmente</a>
 </p>
 <br>
 
 - Mobile
 <p align="center">
-  <img src="/readme-assets/home_mobile.png" width="500" >
-  <img src="/readme-assets/study_mobile.png" width="500" >
-  <img src="/readme-assets/give_classes_mobile.png" width="500" >
+  <img src="/readme-assets/mobile/mobile-compilado.jpg" width="100%" tittle="Visualização no Mobile">
+  <p><a href="/readme-assets/desktop">• Clique para ver individualmente</a>
 </p>
 
 ---
