@@ -20,7 +20,7 @@
 ## 🖥 Preview 
 - Desktop
 <p align="center">
-  <img src="https://ik.imagekit.io/capitao/Proffy/final_1596781937_urgAUoPC-.jpg" width="500" >
+  <img src="/readme-assets/give_classes_desk.png" width="500" >
 </p>
 <br>
 
@@ -46,9 +46,10 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 - HTML
 - CSS
 - JavaScript
-- Node.js 
-- Nunjucks 
+- Node.js  
 - SQLite 
+- Template Engine: Nunjucks
+
 
 --- 
 
@@ -79,11 +80,12 @@ Feito isso, abra o seu navegador e acesse `http://localhost:3000/`
 
 ---
 
-<center>
-  <a href="https://www.linkedin.com/in/victória-almeida-5293321a4/">
+<p aling="center">
+  <a href="https://www.linkedin.com/in/caique-andrade-8a8153189/">
     <img align="center" src="https://img.shields.io/static/v1?label=&message=Linkedin&color=3D008A&style=for-the-badge&logo=linkedin"/>
   </a>
-</center>
+</p>
+
 
 Desenvolvido com 💜 por Caique Andrade
 
