@@ -84,11 +84,13 @@ Feito isso, abra o seu navegador e acesse `http://localhost:3000/`
 
 ---
 
-<p>
+<!-- <p>
   <a aling="center" href="https://www.linkedin.com/in/caique-andrade-8a8153189/">
     <img align="center" src="https://img.shields.io/static/v1?label=&message=Linkedin&color=3D008A&style=for-the-badge&logo=linkedin"/>
   </a>
-</p>
+</p> -->
+
+[![Linkedin Badge](https://img.shields.io/badge/-Caique-dev?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/caique-andrade-8a8153189/)](https://www.linkedin.com/in/caique-andrade-8a8153189/)
 
 
 Desenvolvido com 💜 por Caique Andrade
