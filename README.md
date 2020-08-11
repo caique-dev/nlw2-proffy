@@ -58,25 +58,30 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 # Instalar o NodeJS (Versão LTS)
 https://nodejs.org/en/
 
-# Instalar o GIT for Windows (avise-me se precisar instalar em outro S.O)
+# Instalar o GIT for Windows ou Mac (avise-me se precisar instalar em outro S.O)
 https://gitforwindows.org/
+https://git-scm.com/download/mac
 
 # Clonar o repositório
-git clone https://github.com/jhonathannc/nextlevelweek2
+git clone https://github.com/caique-dev/nlw2-proffy
 
 # Entrar no diretório
-cd nextlevelweek2
+cd nlw2-proffy
 
 # Baixar as dependências
-npm i
+npm install
 
 # Executar o servidor
 npm run dev
 ```
 
-Feito isso, abra o seu navegador e acesse `http://localhost:5500/`
+Feito isso, abra o seu navegador e acesse `http://localhost:3000/`
 
 ---
 
+<a href="https://www.linkedin.com/in/victória-almeida-5293321a4/">
+  <img align="center" src="https://img.shields.io/static/v1?label=&message=Linkedin&color=3D008A&style=for-the-badge&logo=linkedin"/>
+</a>
 
-Desenvolvido com 💜 por RocketSeat
+Desenvolvido com 💜 por Caique Andrade
+
