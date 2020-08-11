@@ -90,7 +90,7 @@ Feito isso, abra o seu navegador e acesse `http://localhost:3000/`
   </a>
 </p> -->
 
-[![Linkedin Badge](https://img.shields.io/badge/-Caique-dev-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/caique-andrade-8a8153189/)](https://www.linkedin.com/in/caique-andrade-8a8153189/)
+[![Linkedin Badge](https://img.shields.io/badge/-Caiquedev-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/caique-andrade-8a8153189/)](https://www.linkedin.com/in/caique-andrade-8a8153189/)
 
 
 Desenvolvido com 💜 por Caique Andrade
