@@ -20,7 +20,7 @@
 ## 🖥 Preview 
 - Desktop
 <p align="center">
-  <img src="/readme-assets/mobile-compilado.jpg" width="500" >
+  <img src="/readme-assets/mobile-compilado.jpg" width="100%" >
 </p>
 <br>
 
