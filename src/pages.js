@@ -41,7 +41,7 @@ async function pageStudy(req, res) {
 
         return res.render('study.html', { proffys, filters, subjects, weekdays })
     } catch (error) {
-        console.log(error )
+        console.log(error)
     }
 
 }
