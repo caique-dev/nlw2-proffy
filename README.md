@@ -79,9 +79,11 @@ Feito isso, abra o seu navegador e acesse `http://localhost:3000/`
 
 ---
 
-<a href="https://www.linkedin.com/in/victória-almeida-5293321a4/">
-  <img align="center" src="https://img.shields.io/static/v1?label=&message=Linkedin&color=3D008A&style=for-the-badge&logo=linkedin"/>
-</a>
+<center>
+  <a href="https://www.linkedin.com/in/victória-almeida-5293321a4/">
+    <img align="center" src="https://img.shields.io/static/v1?label=&message=Linkedin&color=3D008A&style=for-the-badge&logo=linkedin"/>
+  </a>
+</center>
 
 Desenvolvido com 💜 por Caique Andrade
 
