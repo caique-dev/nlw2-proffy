@@ -20,15 +20,15 @@
 ## 🖥 Preview 
 - Desktop
 <p align="center">
-  <img src="/readme-assets/desktop/desk-compilado.jpg" width="100%" tittle="Visualização no Desktop">
   <p><a href="/readme-assets/desktop">• Clique para ver individualmente</a>
+  <img src="/readme-assets/desktop/desk-compilado.jpg" width="100%" tittle="Visualização no Desktop">
 </p>
 <br>
 
 - Mobile
 <p align="center">
-  <img src="/readme-assets/mobile/mobile-compilado.jpg" width="100%" tittle="Visualização no Mobile">
   <p><a href="/readme-assets/mobile">• Clique para ver individualmente</a>
+  <img src="/readme-assets/mobile/mobile-compilado.jpg" width="100%" tittle="Visualização no Mobile">
 </p>
 
 ---
@@ -76,6 +76,9 @@ npm install
 
 # Executar o servidor
 npm run dev
+
+# No seu terminal deve aparecer
+server running
 ```
 
 Feito isso, abra o seu navegador e acesse `http://localhost:3000/`
