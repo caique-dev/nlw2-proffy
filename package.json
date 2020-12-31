@@ -6,7 +6,6 @@
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "homepage": "https://github.com/jhonathannc/nextlevelweek2#readme",
     "dependencies": {
         "express": "^4.17.1",
         "nunjucks": "^3.2.2",
